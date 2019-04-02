@@ -1,37 +1,11 @@
-# System files
-# ------------
-
-Icon
+# General
 .DS_Store
 
-# Temporary files
-# ---------------
+# Sass
+.sass-cache/
 
-/media/*
-!/media/index.html
-
-# -------------SECURITY-------------
-# NEVER publish these files via Git!
-# -------------SECURITY-------------
-
-# Cache Files
-# ---------------
-
+# Kirby
+/site/accounts
+/assets/avatars
+/thumbs/*
 /site/cache/*
-!/site/cache/index.html
-
-# Accounts
-# ---------------
-
-/site/accounts/*
-!/site/accounts/index.html
-
-# Sessions
-# ---------------
-
-/site/sessions/*
-!/site/sessions/index.html
-
-# License
-# ---------------
-/site/config/.license
